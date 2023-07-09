@@ -88,6 +88,10 @@ legend {
 	display: block;
 }
 
+body {
+    background: #ffffff;
+}
+
 .main {
     width: 400px;
     height: 100%;
