@@ -1,0 +1,242 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+.main {
+    width: 375px;
+    height: 100%;
+
+}
+
+.header {
+    margin-top: 8px;
+    height: 100%;
+}
+
+.headline {
+    margin-top: 8px;
+}
+
+.caption {
+    margin-top: 32px;
+}
+
+.heart {
+    width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.motivation {
+    margin-top: 4px;
+}
+
+.objective {
+    width: 328px;
+    height: 498px;
+    background: #F8F8F9;
+    margin-top: 16px;
+}
+
+.target {
+    width: 328px;
+    height: 76px;
+    margin-top: 8px;
+    background: #F8F8F9;
+}
+
+.caption_2 {
+    margin-top: 32px;
+}
+
+.Health_1 {
+    width: 328px;
+    height: 120px;
+    background: #F8F8F9;
+    margin-top: 16px;
+}
+
+.Health_2 {
+    width: 328px;
+    height: 102px;
+    background: #F8F8F9;
+    margin-top: 8px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+.awards {
+    margin-top: 16px;
+    clear: both;
+    overflow: hidden;
+  }
+  
+.awards_1 {
+    float: left;
+    width: 33.333%;
+    height: 100px;
+  }
+
+.awards_2 {
+    float: left;
+    width: 33.333%;
+    height: 100px;
+    padding-left: 8px;
+  }
+
+  .awards_3 {
+    float: left;
+    width: 33.333%;
+    height: 100px;
+    padding-left: 8px;
+  }
+  
+.border_box {
+    width: 100%;
+    height: 100%;
+  }
+
+.border_box_2 {
+    padding-top: 16px;
+    width: 100%;
+    height: 100%;
+  }
+
+.caption_3 {
+    margin-top: 32px;
+}
+
+.useful_materials {
+    margin-top: 46px;
+}
+
+.articles {
+    width: 328px;
+    height: 274px;
+    background: #F8F8F9;
+}
+
+.books {
+    padding-top: 8px;
+    width: 328px;
+    height: 274px;
+    background: #F8F8F9;
+}
+
+.head_brief {
+    display: flex;
+    flex-direction: row;
+}
+
+.brief {
+    width: 50%;
+}
+
+.motivation {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.motivation_text {
+    text-align: center;
+}
+
+.target {
+    display: flex;
+    flex-direction: row;
+}
+
+.ellipse_brief {
+    float: right;
+}
