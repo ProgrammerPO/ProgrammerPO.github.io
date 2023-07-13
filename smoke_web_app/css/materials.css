@@ -1,0 +1,226 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+body {
+    background: #ffffff;
+}
+
+.main {
+    width: 400px;
+    height: 100%;
+    background: #ffffff;
+
+}
+
+.center {
+    width: 352px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 40px;
+}
+
+.header {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_text {
+    font-size: 14px;
+    color: #272D34;
+}
+
+.texts_bloks {
+    margin-top: 16px;
+}
+
+.keyboards_fo {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.articles_but {
+    width: 76px;
+    height: 24px;
+    background: #D8CCFF;
+    color: #8D69FF;
+    display: flex;
+    border-radius: 500px;
+}
+
+.books_but {
+    width: 69px;
+    height: 24px;
+    background: #FFDBA9;
+    color: #F59612;
+    display: flex;
+    margin-left: 8px;
+    border-radius: 500px;
+}
+
+.podcasts_but {
+    width: 92px;
+    height: 24px;
+    background: #D3F4FF;
+    color: #2FB7E4;
+    display: flex;
+    margin-left: 8px;
+    border-radius: 500px;
+}
+
+.video_but {
+    width: 72px;
+    height: 24px;
+    background: #FFD0D1;
+    color: #F5282C;
+    display: flex;
+    margin-left: 8px;
+    border-radius: 500px;
+}
+
+.keyboards_fo_text {
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+.useful_materials {
+    margin-top: 46px;
+}
+
+.articles {
+    width: 328px;
+    height: 274px;
+    background: #F8F8F9;
+}
+
+.articles_text1 {
+    padding-top: 16px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.articles_text2 {
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+
+.books {
+    padding-top: 8px;
+    width: 328px;
+    height: 274px;
+    background: #F8F8F9;
+}
+
+.books_text1 {
+    padding-top: 16px;
+    font-size: 16px;
+}
+
+.books_text2 {
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.block_footer {
+    margin-top: 94px;
+}
+
+.arr_all {
+    padding-top: 6px;
+    width: 16px;
+    height: 16px;
+}
