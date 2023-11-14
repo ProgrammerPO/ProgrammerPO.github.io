@@ -1,0 +1,73 @@
+body {
+    width: 1000px;
+    background: #102A45;
+}
+
+div {
+    min-width: 400px;
+    max-width: 1000px;
+}
+
+@media all (max-width 1000px) {
+
+div {
+
+width: 60%
+
+}
+
+}
+
+@media all (min-width 400px) {
+
+div {
+
+width: 100%;
+
+}
+
+}
+
+.header {
+    width: 100%;
+    height: 408px;
+}
+
+.main {
+    width: 295px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+
+.top_part {
+    width: 100%;
+    height: 408px;
+    background: #011E3D;
+}
+
+.balance_text{
+    color: #8999B0;
+    padding-top: 260px;
+    text-align: center;
+}
+
+.balance {
+    color: #8999B0;
+    text-align: center;
+}
+
+.button_main {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+.tedher_usd {
+    width: 272px;
+    height: 48px;
+    background: #213951;
+    margin-top: 18px;
+}
