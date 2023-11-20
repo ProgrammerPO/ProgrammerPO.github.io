@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_send_usdt.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <title>Buy</title>
+</head>
+<body>
+    <header>
+        <a href="../page/usdt.html"><div class="back_but">Назад</div></a>
+    </header>
+    <main>
+        <div class="main">
+            <div class="text-field">
+                <label class="text-field__label" for="login">Адрес получателя</label>
+                <input class="text-field__input" type="text" name="login" id="login" placeholder="Введите или вставьте действительный адрес">
+            </div>
+            <div class="text-field">
+                <label class="text-field__label" for="login">Сумма</label>
+                <input class="text-field__input" type="text" name="login" id="login" placeholder="Введите или вставьте верную сумму">
+                <p class="balanc_send">Баланс: 0 USDT</p>
+            </div>
+            <select name="user_profile_color_2" required="required" class="networj_choice">
+                <option value="">Выберите сеть:</option>
+                <option value="1">TRC20</option>
+                <option value="2">BEP20</option>
+            </select>
+            <div class="button_send">
+                <button class="button_main_frie">Отправить</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
